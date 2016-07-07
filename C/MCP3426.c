@@ -20,7 +20,7 @@ void main()
 		printf("Failed to open the bus. \n");
 		exit(1);
 	}
-	// Get I2C device, AD5259 I2C address is 0x68(104)
+	// Get I2C device, MCP3426 I2C address is 0x68(104)
 	ioctl(file, I2C_SLAVE, 0x68);
 
 	// Select configuration command(0x10)
