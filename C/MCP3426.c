@@ -37,7 +37,7 @@ void main()
 	char data[2] = {0};
 	if(read(file, data, 2) != 2)
 	{
-		printf("Erorr : Input/output Erorr \n");
+		printf("Error : Input/output Error \n");
 	}
 	else
 	{
@@ -49,6 +49,6 @@ void main()
 		}
 
 		// Output data to screen
-		printf("Raw value of the source : %d \n", raw_adc);
+		printf("Digital value of Analog Input : %d \n", raw_adc);
 	}
 }
