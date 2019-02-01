@@ -1,6 +1,6 @@
 # Distributed with a free-will license.
 # Use it any way you want, profit or free, provided it fits in the licenses of its associated works.
-# MCP3426
+# MCP3426 4-Channel I2C ADC via Raspberry Pi 3
 # This code is designed to work with the MCP3426_I2CADC I2C Mini Module available from ControlEverything.com.
 # https://www.controleverything.com/content/Analog-Digital-Converters?sku=MCP3426_I2CADC#tabs-0-product_tabset-2
 
@@ -20,9 +20,9 @@ sensor_read_slope = (39.5-sensor_read_intercept)/10
 
 address = 0x6e				#0x6e is the MCP3426 address Retrieved via cmd(sudo i2cdetect -y 1)
 ch1 = [0x10,(10/8.925),"ch1"]		#[0x10(00010000) is Continuous conversion mode on Channel-1 w 12-bit Resolution, Ch1 sensor calibration value]
-ch2 = [0x30,(10/8.925),"ch2"]		#[0x30(00110000) is Continuous conversion mode on Channel-2 w 12-bit Resolution, Ch2 sensor calibration value]
-ch3 = [0x50,(10/8.925),"ch3"]		#[0x50(01010000) is Continuous conversion mode on Channel-3 w 12-bit Resolution, Ch3 sensor calibration value]
-ch4 = [0x70,(10/8.925),"ch4"]		#[0x70(01110000) is Continuous conversion mode on Channel-4 w 12-bit Resolution, Ch4 sensor calibration value]
+ch2 = [0x30,(10/8.911),"ch2"]		#[0x30(00110000) is Continuous conversion mode on Channel-2 w 12-bit Resolution, Ch2 sensor calibration value]
+ch3 = [0x50,(10/8.936),"ch3"]		#[0x50(01010000) is Continuous conversion mode on Channel-3 w 12-bit Resolution, Ch3 sensor calibration value]
+ch4 = [0x70,(10/8.921),"ch4"]		#[0x70(01110000) is Continuous conversion mode on Channel-4 w 12-bit Resolution, Ch4 sensor calibration value]
 
 def i2c_read_voltage(addr,ch):
   # Send configuration command
