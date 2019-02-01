@@ -1,4 +1,7 @@
-[![MCP3428](MCP3428_I2CADC.png)](https://store.ncd.io/product/4-channel-i2c-0-10v-analog-to-digital-converter-with-i2c-interface/)
+[![MCP3428](MCP3428_0-10V_ADC_4CH.png)](https://store.ncd.io/product/4-channel-i2c-0-10v-analog-to-digital-converter-with-i2c-interface/)
+
+[![MCP3428](MCP3426_I2CADC.png)](https://store.ncd.io/product/mcp3426-16-bit-2-channel-analog-to-digital-converter-i2c-mini-module/)
+
 # MCP3426
 MCP3426/7/8 Analog to Digital Converter.
 
