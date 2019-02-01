@@ -1,12 +1,12 @@
-[![MCP3426](MCP3426_I2CADC.png)](https://www.controleverything.com/content/Analog-Digital-Converters?sku=MCP3426_I2CADC)
+[![MCP3428](MCP3428_I2CADC.png)](https://store.ncd.io/product/4-channel-i2c-0-10v-analog-to-digital-converter-with-i2c-interface/)
 # MCP3426
-MCP3426 Analog to Digital Converter.
+MCP3426/7/8 Analog to Digital Converter.
 
-The MCP3426 is a 2-Channel Analog to Digital Converter.
+The MCP3426 is a 2-4-Channel Analog to Digital Converter.
 
 This Device is available from ControlEverything.com [SKU: MCP3426_I2CADC]
 
-https://www.controleverything.com/content/Analog-Digital-Converters?sku=MCP3426_I2CADC
+https://store.ncd.io/product/4-channel-i2c-0-10v-analog-to-digital-converter-with-i2c-interface/
 
 This Sample code can be used with Raspberry Pi, Arduino, Particle Photon, Beaglebone Black and Onion Omega.
 
